@@ -3,8 +3,6 @@ package com.devgabriel.dsvendas.dtos;
 import com.devgabriel.dsvendas.entities.Seller;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
 
 public class SellerDTO implements Serializable {
   private static final long serialVersionUID = 1L;
@@ -40,4 +38,5 @@ public class SellerDTO implements Serializable {
   public void setName(String name) {
     this.name = name;
   }
+
 }
